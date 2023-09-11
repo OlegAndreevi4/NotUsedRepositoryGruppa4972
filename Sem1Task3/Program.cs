@@ -14,3 +14,8 @@ dayOfWeek[5]="Суббота";
 dayOfWeek[6]="Воскресенье";
 
 Console.WriteLine(dayOfWeek[day-1]);
+
+// Console.WriteLine("Enter day nuber");
+// int dayNum = int.Parse(Console.ReadLine());
+
+// string outDayOfWeek = System.Globalization.CultureInfo.GetCultureInfo(ru-Ru).DateTimeFormat.GetDayName(typeof(DayOfWeek))
