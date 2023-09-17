@@ -3,12 +3,9 @@
 System.Console.WriteLine("Введите три числа");
 int numb1 = Convert.ToInt32(Console.ReadLine());
 int numb2 = Convert.ToInt32(Console.ReadLine());
-int numb2 = Convert.ToInt32(Console.ReadLine());
-if (numb1 > numb2) 
-{
-    System.Console.WriteLine("Первое больше второго");
-}
-else 
-{
-    System.Console.WriteLine("Первое число меньше второго");
-}
+int numb3 = Convert.ToInt32(Console.ReadLine());
+int max = numb1;
+if(numb2 > max) max = numb2;
+if(numb3 > max) max = numb3;
+Console.Write("Максимальное число ");
+Console.Write(max);
